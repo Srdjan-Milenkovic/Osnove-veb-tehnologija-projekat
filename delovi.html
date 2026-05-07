@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delovi</title>
+    <style>
+         body h1, p{ margin-left:10px}
+        body{margin: 0;
+        background-color: aliceblue;}
+ nav{
+            display: flex;
+            align-items: center;}
+        .links{
+            display: flex;
+            gap: 12px;
+            width: 100%;
+            justify-content: center;}
+        footer{height: 150px;
+        background-color: rgb(105, 146, 182);}
+        footer img{width: 100px;
+        height: 100px;}
+        .camera{display: flex;
+            width: 500px;
+        flex-direction: column;
+    margin-bottom: 50px;}
+    .camera button{width: 100%;}
+     .logo{display: flex;}
+    </style>
+     <link rel="icon" type="image/x-icon" href="slike/cameraicon.svg">
+</head>
+<body>
+    <nav>
+       <a href="index.html">
+            <div class="logo">
+                <img src="slike/cameraicon.svg" alt="" width="50px">
+                <h1>Fotografija</h1>
+            </div>
+         </a>
+        <div class="links">
+            <a href="delovi.html"><p>Delovi</p></a>
+            <a href="oblasti.html"><p>Oblasti</p></a>
+            <a href="galerija.html"><p >Galerija</p></a>
+            <a href="kontakt.html"><p>Kontakt</p></a>
+        </div>
+    </nav>
+    <div class="camera"><img src="slike/analog.JPG" alt="analog kamera"  width="500px">
+    <a href="analog.html"><button><p>delovi analog kamera</p></button></a></div>
+    <div class="camera"><img src="slike/digital.jpg" alt="digitalna kamera"  width="500px">
+    <a href="digital.html"><button><p>Delovi digitalnih kamera </p></button></a></div>
+
+     <footer>
+        <a href="https://www.instagram.com" target="_blank"><img src="slike/brand-instagram.svg" alt="instagram"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="slike/brand-facebook.svg" alt="facebook"></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="slike/brand-youtube.svg" alt="youtube"></a>
+        <p>copyright 2026. fotografija</p>
+    </footer>   
+</body>
+</html>

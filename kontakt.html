@@ -1,0 +1,63 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <style>
+         body h1, p, input, label, textarea{ margin-left:10px}
+        body{margin: 0;
+        background-color: aliceblue;}
+        nav{
+            display: flex;
+            align-items: center;}
+        .links{
+            display: flex;
+            gap: 12px;
+            width: 100%;
+            justify-content: center;}
+        footer{height: 150px;
+        background-color: rgb(105, 146, 182);}
+        footer img{width: 100px;
+        height: 100px;}
+         .logo{display: flex;}
+    </style>
+     <link rel="icon" type="image/x-icon" href="slike/cameraicon.svg">
+ </head>
+ <body>
+    <nav>
+       <a href="index.html">
+            <div class="logo">
+                <img src="slike/cameraicon.svg" alt="" width="50px">
+                <h1>Fotografija</h1>
+            </div>
+         </a>
+        <div class="links">
+            <a href="delovi.html"><p>Delovi</p></a>
+            <a href="oblasti.html"><p>Oblasti</p></a>
+            <a href="galerija.html"><p >Galerija</p></a>
+            <a href="kontakt.html"><p>Kontakt</p></a>
+        </div>
+    </nav>
+        <form action="#">
+            <label for="ime">Ime</label><br>
+            <input type="text" name="ime" id="ime"><br><br>
+            <label for="prezime">prezime</label><br>
+            <input type="text" name="prezime" id="prezime"><br><br>
+            <label for="phone">Telefon</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="email">Email</label> <br> 
+            <input type="email" name="email" id="email" placeholder="example@gmail.com"> <br> <br>
+            <label for="textarea">Poruka</label> <br> 
+            <textarea name="textarea" id="textarea" cols="40" rows="15"></textarea><br><br>
+            <input type="submit" value="Pošalji"> <br> <br>
+        </form>
+    <footer>
+            <a href="https://www.instagram.com" target="_blank"><img src="slike/brand-instagram.svg" alt="instagram"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="slike/brand-facebook.svg" alt="facebook"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="slike/brand-youtube.svg" alt="youtube"></a>
+            <p>copyright 2026. fotografija</p>
+    </footer>        
+ </body>
+ </html>
